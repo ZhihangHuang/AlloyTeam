@@ -1,0 +1,71 @@
+.slide img {
+  height: 100%!important;
+}
+@media (max-width: 992px) {
+  .slide .item {
+    height: 400px;
+  }
+}
+@media (max-width: 798px) {
+  .slide .item {
+    height: 250px;
+  }
+}
+@media (min-width: 992px) {
+  .slide .item {
+    height: 500px;
+  }
+}
+nav.navbar.navbar-default {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  background-image: none !important;
+  /* 覆盖背景图像 */
+  box-shadow: none !important;
+  /* 去除阴影 */
+}
+.project {
+  margin-top: 30px;
+  text-align: center;
+}
+.project span {
+  font-size: 16px;
+}
+.project a {
+  height: 200px;
+}
+.project a img {
+  height: 60px;
+}
+.project .omi {
+  margin-top: 30px;
+  display: block;
+  background-color: skyblue;
+  padding: 20px 10px;
+  text-decoration: none;
+  color: #fff;
+}
+.project .alloyimage {
+  margin-top: 30px;
+  display: block;
+  background-color: gold;
+  padding: 20px 10px;
+  text-decoration: none;
+  color: #fff;
+}
+.project .alloytouch {
+  margin-top: 30px;
+  display: block;
+  background-color: red;
+  padding: 20px 10px;
+  text-decoration: none;
+  color: #fff;
+}
+.project .soda {
+  margin-top: 30px;
+  display: block;
+  background-color: greenyellow;
+  padding: 20px 10px;
+  text-decoration: none;
+  color: #fff;
+}
